@@ -1,4 +1,6 @@
- helper(arr, num):
+# https://www.ptt.cc/bbs/Python/M.1602060224.A.B1E.html
+
+def helper(arr, num):
     subs = {()}
     for a in arr:
         subs |= { s + (a, ) for s in subs }
