@@ -1,5 +1,5 @@
-https://leetcode.com/problems/robot-bounded-in-circle/
-```python
+# https://leetcode.com/problems/robot-bounded-in-circle/
+
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
         #      x y a  bi
@@ -21,4 +21,3 @@ class Solution:
                 # = b -ai
         
         return mat[:2] == [0, 0] or mat[2:] != [0,1]
-```
