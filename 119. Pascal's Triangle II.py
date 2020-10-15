@@ -1,5 +1,5 @@
-https://leetcode.com/problems/pascals-triangle-ii/
-```python
+# https://leetcode.com/problems/pascals-triangle-ii/
+
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         e = 1
@@ -8,4 +8,3 @@ class Solution:
             e = int(e*(rowIndex-i)/(i+1))
             re.append(e)
         return re
-```
