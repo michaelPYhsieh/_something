@@ -1,0 +1,7 @@
+# git rm -r --cached . && git add . && git commit -m "Remove all files that are in the .gitignore" && git push
+.vscode/
+
+
+Pipfile.lock
+_wa/
+push_git.bat
