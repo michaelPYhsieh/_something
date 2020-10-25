@@ -2,7 +2,7 @@
 
 :start
 
-set d="auto" 
+::set d="auto" 
 set t=%date%%time%
 set /p d=git commit: 
 
